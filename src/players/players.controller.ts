@@ -1,9 +1,9 @@
 import { Controller, Post } from '@nestjs/common';
 
 @Controller('api/v1/jogadores')
-export class JogadoresController {
+export class PlayersController {
   @Post()
-  async criarAtualizarJogador() {
+  async createUpdatePlayer() {
     return JSON.stringify({
       nome: 'Christian Andrade',
     });
